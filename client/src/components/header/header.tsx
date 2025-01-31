@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type React from "react";
-
 const Header: React.FC = () => {
   return (
     <>
@@ -57,10 +56,10 @@ const Header: React.FC = () => {
                   <Link href="/symptoms">Disease Symptoms</Link>
                 </li>
                 <li>
-                  <Link href="/disease">Multi-disease</Link>
+                  <Link href="/">Multi-disease</Link>
                   <ul className="submenu">
                     <li>
-                      <Link href="/kideny">Kidney</Link>
+                      <Link href="/kidney">Kidney</Link>
                     </li>
                     <li>
                       <Link href="/heart">Heart</Link>
@@ -69,20 +68,26 @@ const Header: React.FC = () => {
                       <Link href="/liver">Liver</Link>
                     </li>
                     <li>
-                      <Link href="/pancrease">Pancreas</Link>
+                      <Link href="/pancreas">Pancreas</Link>
+                    </li>
+                    <li>
+                      <Link href="/diabetes">Diabetes</Link>
                     </li>
                   </ul>
                 </li>
                 <li>
-                  <Link href="/disease">Drugs</Link>
+                  <Link href="/">Drugs</Link>
                   <ul className="submenu">
                     <li>
-                      <Link href="/kideny">Alternative Drug</Link>
+                      <Link href="/alternativeDrug">Alternative Drug</Link>
                     </li>
                     <li>
-                      <Link href="/heart">Drug Response</Link>
+                      <Link href="/drugResponse">Drug Response</Link>
                     </li>
                   </ul>
+                </li>
+                <li>
+                  <Link href="/insurance">Insurance</Link>
                 </li>
                 {/* Add more navigation items as needed */}
               </ul>
