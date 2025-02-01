@@ -1,13 +1,3 @@
-import React from "react";
-import Landing from "@/components/home/home";
+import Landing from "@/pages/home/home";
 
-export default function Home() {
-  return (
-    <div>
-      {/* <AboutUs /> */}
-      {/* <DiseasePredictor /> */}
-      {/* <AlternativeDrug /> */}
-      <Landing />
-    </div>
-  );
-}
+export default Landing;
