@@ -1,3 +1,4 @@
+
 import MyButton1 from "@/components/Buttons/MyButton1";
 import Image from "next/image";
 
@@ -95,3 +96,4 @@ export default function Home() {
     </section>
   );
 }
+

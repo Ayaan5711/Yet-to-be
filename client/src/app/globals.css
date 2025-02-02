@@ -11,23 +11,18 @@
 @tailwind utilities;
 
 
-
 :root {
   --background: white;
   --foreground: black;
   --gradient-bg: linear-gradient(135deg, #3b83f64a 0%, #ffffff 100%);
-}
 
-.dark {
-  --background: black;
-  --foreground: white;
-  /* Remove gradient in dark mode */
 }
 
 body {
   color: var(--foreground);
   background: var(--gradient-bg);
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
@@ -58,3 +53,4 @@ body {
 .header_links:hover::before {
   transform: scaleX(1);
 }
+
