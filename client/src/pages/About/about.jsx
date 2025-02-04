@@ -4,7 +4,7 @@ const AboutUs = () => {
   return (
     <div>
       {/* Our Vision Section */}
-      <section>
+      {/* <section>
         <div>
           <div>
             <h2>Our Vision</h2>
@@ -17,7 +17,7 @@ const AboutUs = () => {
           </div>
           <div>Image dis ekta</div>
         </div>
-      </section>
+      </section> */}
 
       {/* Who We Are Section */}
       <section>
